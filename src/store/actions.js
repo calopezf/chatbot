@@ -1,3 +1,6 @@
 export default {
-  //poner los métodos de actions
+  //Métodos que son Asincronos
+  addChat(context, userInput){
+    context.commit('addChat',userInput)
+  }
 }
